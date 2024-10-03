@@ -1,13 +1,13 @@
 # 🏠NashvilleHousing-CleanData
 
 ## ✏️Các thao tác chính bao gồm
-- Kiểm tra tổng thể dữ liệu
-- Đổi kiểu dữ liệu và cập nhật các giá trị
-- Tách chuỗi địa chỉ để chuẩn hóa trường dữ liệu
-- Kiểm tra và loại bỏ dữ liệu trùng lặp
+Dự án tập trung vào việc làm sạch tập dữ liệu thông tin về doanh số bán nhà ở tại Nashville, TN(Tennessee: một tiểu bang nằm ở khu vực phía Đông Nam của Hoa Kỳ) với các thao tác chính bao gồm:
+- Sử dụng DQL(Data Query Language) để truy vấn kiểm tra dữ liệu
+- Sử dụng DDL (Data Definition Language) để định nghĩa dữ liệu
+- Sử dụng String Function để tách chuỗi địa chỉ nhà thành các trường riêng như số nhà, thành phố, bang
+- Sử dụng DML(Data Manipulation Language) để đổi kiểu dữ liệu và cập nhật các giá trị và loại bỏ dữ liệu trùng lặp
 
 ## ✏️Thông tin dữ liệu (Dataset)
-Dự án tập trung vào việc làm sạch tập dữ liệu thông tin về doanh số bán nhà ở tại Nashville, TN(Tennessee: một tiểu bang nằm ở khu vực phía Đông Nam của Hoa Kỳ) với các trường dữ liệu như sau:
 - UniqueID: Mã định danh duy nhất cho mỗi bản ghi.
 - ParcelID: Mã định danh của lô đất.
 - LandUse: Mục đích sử dụng đất (như đất ở, thương mại).
